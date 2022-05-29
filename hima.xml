@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="Claymore1297/android_device_htc_hima" path="device/htc/hima" remote="github" />
+    <project name="Claymore1297/android_kernel_htc_msm8994" path="kernel/htc/msm8994" remote="github" />
+    <project name="Claymore1297/proprietary_vendor_htc" path="vendor/htc" remote="github" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+    <project path="hardware/qcom-caf/msm8994/audio" name="Claymore1297/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="q10.0-caf-8994" remote="github" />
+</manifest>
