@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="lifehackerhansol-android/android_device_lge_joan" path="device/lge/joan" remote="github" />
+  <project name="lifehackerhansol-android/android_device_lge_common" path="device/lge/common" remote="github" />
+  <project name="lifehackerhansol-android/android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="github" />
+  <project name="SGCMarkus/android_hardware_lge" path="hardware/lge" remote="github" />
+  <project name="lifehackerhansol-android/proprietary_vendor_lge" path="vendor/lge" remote="github" />
+</manifest>
