@@ -1,31 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Device -->
 	<project name="lifehackerhansol-android/android_device_samsung_c1skt" path="device/samsung/c1skt" revision="cm-14.1" />
 	<project name="lifehackerhansol-android/android_device_samsung_c1lgt" path="device/samsung/c1lgt" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/android_device_samsung_c1-common" path="device/samsung/c1-common" revision="cm-14.1" />
 	<project name="lifehackerhansol-android/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="cm-14.1" />
-
-	<!-- Kernel -->
-	<project name="lifehackerhansol-android/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="Android-7.1" />
-
-	<!-- Vendor -->
-	<project name="lifehackerhansol-android/android_vendor_samsung_i9300" path="vendor/samsung/i9300" revision="Android-7.1" />
-	<project name="lifehackerhansol-android/android_vendor_samsung_c1skt" path="vendor/samsung/c1skt" revision="Android-7.1" />
-	<project name="lifehackerhansol-android/android_vendor_samsung_c1lgt" path="vendor/samsung/c1lgt" revision="Android-7.1" />
-	<project name="lifehackerhansol-android/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" revision="Android-7.1" />
-
-	<!-- Hardware -->
-	<project name="lifehackerhansol-android/android_hardware_samsung" path="hardware/samsung" revision="Android-7.1" />
-	<project name="lifehackerhansol-android/android_hardware_samsung_exynos4_hal" path="hardware/samsung/exynos4/hal" revision="Android-7.1" />
-
-	<!-- Apps -->
-	<project name="lifehackerhansol-android/android_packages_apps_helper" path="packages/apps/helper" revision="master" />
+	<project name="lifehackerhansol-android/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/android_vendor_samsung_c1skt" path="vendor/samsung/c1skt" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/android_vendor_samsung_c1lgt" path="vendor/samsung/c1lgt" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/android_vendor_samsung_c1-common" path="vendor/samsung/c1-common" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/android_hardware_samsung" path="hardware/samsung" revision="cm-14.1" />
+	<project name="lifehackerhansol-android/android_hardware_samsung_exynos4_hal" path="hardware/samsung/exynos4/hal" revision="cm-14.1" />
 	<project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-14.1" />
-
-	<!-- External -->
 	<project name="LineageOS/android_external_stlport" path="external/stlport" revision="cm-14.1" />
-
-	<!-- Frameworks -->
 	<remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
 	<project name="lifehackerhansol-android/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="cm-14.1" />
 </manifest>
